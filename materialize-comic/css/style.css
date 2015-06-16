@@ -1,0 +1,51 @@
+body {
+  background-color: #000;
+  background-image: url(../images/bg-body.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: 'KomikaTextTightRegular', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.row.banner {
+  height: 250px;
+  padding-left: 130px;
+  padding-top: 10px;
+  background-color: orange;
+
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+
+.row.banner > * { 
+  -moz-transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+}
+
+@media only screen and (max-width : 600px) {
+  .row.banner {
+    padding-left: 10px;
+    -moz-transform: skewX(0);
+    -webkit-transform: skewX(0);
+    -o-transform: skewX(0);
+    -ms-transform: skewX(0);
+    transform: skewX(0);
+  }
+
+  .row.banner > * { 
+    -moz-transform: skewX(0);
+    -webkit-transform: skewX(0);
+    -o-transform: skewX(0);
+    -ms-transform: skewX(0);
+    transform: skewX(0);
+  }
+
+}
