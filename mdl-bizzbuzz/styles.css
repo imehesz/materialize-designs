@@ -294,6 +294,15 @@ html, body {
   background-color: #263238;
 }
 
+.mdl-mega-footer--bottom-section a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+
+.mdl-mega-footer--bottom-section a:hover {
+  color: #fff;
+}
+
 @media screen and (max-width: 479px) {
   .feature__top > * {
     border-top: none;
