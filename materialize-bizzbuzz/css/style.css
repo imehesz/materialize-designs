@@ -1,0 +1,18 @@
+.bizz-buzz-app .bizz-buzz-blue {
+  background-color: #263238 !important;
+}
+
+.bizz-buzz-app nav ul li:hover, 
+.bizz-buzz-app nav ul li.active {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bizz-buzz-app .badge {
+  position: inherit;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.bizz-buzz-app .short-description::first-letter {
+  font-size: 135%;
+}
