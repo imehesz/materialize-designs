@@ -3,7 +3,8 @@
 }
 
 .bizz-buzz-app nav ul li:hover, 
-.bizz-buzz-app nav ul li.active {
+.bizz-buzz-app nav ul li.active,
+.bizz-buzz-app footer.page-footer .footer-copyright {
   background-color: rgba(0,0,0,0.5);
 }
 
@@ -11,6 +12,10 @@
   position: inherit;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+}
+
+.bizz-buzz-app p.short-description {
+  margin: 15px 0;
 }
 
 .bizz-buzz-app .short-description::first-letter {
