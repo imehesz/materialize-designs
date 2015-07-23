@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  </head>
+
+  <body class="bizz-buzz-app">
+    <header>
+      <div class="navbar-fixed">
+        <nav class="bizz-buzz-blue">
+          <div class="nav-wrapper">
+            <a href="#!" class="right brand-logo">BizzBuzz Comics</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="#">Comics</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul id="mobile-demo" class="side-nav">
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="#">Comics</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container home">
+        <h4>Planet Of The Apes #10</h4>
+        <p>
+          <a href="#"><span class="badge blue-grey white-text">classic</span></a>
+          <a href="#"><span class="badge blue-grey white-text">bw</span></a>
+        </p>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/potauk10.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <a href="#" class="waves-effect waves-light btn blue-grey">Read it</a> or <a href="#">learn about our BuzzReader</a>.
+                </p>
+
+                <p class="artist-wrapper">
+                  <strong>Writer</strong> Writer Joe<br>
+                  <strong>Artist</strong> Artist John
+                </p>
+
+
+                <p class="short-description">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+
+                <p class="artist-wrapper">
+                  <strong>Permalink</strong> <br /> 
+                  <a href="#">http://blahlblah.com/linke-here.html</a>
+                </p>
+
+                <p class="artist-wrapper">
+                  <strong>Share</strong> <br /> 
+                  Sharing stuff goes here
+                </p>
+
+                <p class="artist-wrapper">
+                  <strong>Rate this comic</strong> <br /> 
+                  Rating stuff goes here
+                </p>
+
+                <hr>
+
+                LICENSE STUFF GOES HERE
+
+
+              </div>
+            </div>
+          </div>
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </main>
+
+    <footer class="page-footer bizz-buzz-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center">
+              <div>
+                <a href="http://bizzbuzzcomics.com"><img src="images/bizzbuzz-logo.png"></a>
+              </div>
+
+              <a href="">Facebook</a> <span class="grey-text">-</span>
+              <a href="">Twitter</a> <span class="grey-text">-</span>
+              <a href="">Pinterest</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+          &copy; 2015 Copyright <a href="http://bizzbuzzcomics.com">BizzBuzz Comics</a> <span class="grey-text">-</span>
+          <a href="#">Terms and Conditions</a>
+
+        </div>
+      </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(function(){
+        $(".button-collapse").sideNav();
+      });
+    </script>
+  </body>
+</html>
